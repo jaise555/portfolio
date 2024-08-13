@@ -1,0 +1,138 @@
+.hr{
+    height: .2rem;
+    background-color:rgb(249, 210, 111);
+}
+.navbar-nav{
+    text-align: right;
+}
+.navbar{
+    box-shadow: 0 2px 6px rgb(249, 210, 111);
+    color: white;
+    text-shadow: 0 3px 10px rgb(249, 210, 111);
+}
+#d2{
+    background-image: url(/images/WhatsApp\ Image\ 2024-03-06\ at\ 15.01.54.jpeg);
+}
+.progress{
+    height: 20px; 
+}
+.third{
+    height: 100;
+}
+#pro1{
+   background-color: rgb(249, 210, 111);
+   animation: load1 5s normal forwards;
+}
+#pro2{
+    background-color:  rgb(249, 210, 111);
+    animation: load2 5s normal forwards;
+}
+#pro3{
+    background-color:  rgb(249, 210, 111);
+    animation: load3 5s normal forwards;
+}
+#pro4{
+    background-color:  rgb(249, 210, 111);
+    animation: load4 5s normal forwards;
+}
+#pro5{
+    background-color: rgb(249, 210, 111);
+    animation: load5 5s normal forwards;
+}
+#img-1{
+    height: 35rem;
+    background-color: transparent;
+}
+#img-1:hover{
+    border: rgb(246, 244, 244);
+    opacity: .20;
+}
+.btn:hover{
+    color:black;
+    background-color: rgb(249, 249, 253);  
+}
+#zz{
+    padding-top: 9rem; 
+}
+#qq{
+    position: absolute;
+    top: 150px;
+}
+
+#c1{
+    background-color: #131313;
+}
+.f{
+    height: 50px;
+    width: 300px;
+    background-color: #272727;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 0 6px rgb(249, 210, 111);
+}
+.f1{
+    height: 140px;
+    width: 270px;
+    background-color: #272727;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 0 6px rgb(249, 210, 111);
+}
+#c2{
+    margin-top: -6px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+#c3{
+    margin-top: -14px;
+}
+
+    
+@keyframes load1{
+0%{
+    width: 0;
+}
+100%{
+    width: 80;
+}
+}
+@keyframes load2{
+0%{
+    width: 0;
+}
+100%{
+    width: 60;
+}
+}
+@keyframes load3{
+0%{
+    width: 0;
+}
+100%{
+    width: 70;
+}
+}
+@keyframes load4{
+0%{
+    width: 0;
+}
+100%{
+    width: 70;
+}
+}
+@keyframes load5{
+0%{
+    width: 0;
+}
+100%{
+        width: 50;
+    }
+    } 
+      
